@@ -1,0 +1,74 @@
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proyecto Rosado</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo" class="wolf-logo" />
+      <h1>Mi Sitio Rosado</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero-section">
+      <h2>Bienvenido a un mundo rosado</h2>
+      <p>Explora contenido tierno, educativo y moderno.</p>
+      <audio class="student-song" controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+      </audio>
+    </section>
+
+    <section class="content-section">
+      <h2>Temas destacados</h2>
+      <ul>
+        <li>Educación creativa</li>
+        <li>Diseño amigable</li>
+        <li>Colores pastel para todos</li>
+      </ul>
+    </section>
+
+    <section class="paw-buttons-container">
+      <button class="paw-button" data-info="Contenido para Botón 1">Botón 1</button>
+      <button class="paw-button" data-info="Contenido para Botón 2">Botón 2</button>
+      <button class="paw-button" data-info="Contenido para Botón 3">Botón 3</button>
+    </section>
+
+    <div class="info-content">
+      <p>Haz clic en un botón para mostrar contenido adicional aquí.</p>
+    </div>
+
+    <form id="feedback-form">
+      <h2>Formulario de Retroalimentación</h2>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Mi Sitio Rosado
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
